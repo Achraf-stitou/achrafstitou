@@ -1,116 +1,206 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Achraf Stitou
+  given: Achraf
+  family: Stitou
+  alternate: ''
+  pronunciation: ''
+
+postnominals: []
+
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "💻"
+
+role: Infrastructure & Systems Engineer
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Titulaire d’une licence en Sciences Informatiques, passionné par
+  l’infrastructure IT, les systèmes, les réseaux, la cybersécurité,
+  le cloud computing et le monitoring. Motivé, curieux et orienté
+  solution, je m’adapte facilement aux environnements techniques
+  et je cherche toujours à améliorer la fiabilité des systèmes IT.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: ORBIS HOLDING
+    url: ""
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:achrafstitou2003@gmail.com
+    label: E-mail
+
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/Achraf-stitou
+
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: www.linkedin.com/in/achraf-stitou-938437274
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - IT Infrastructure
+  - Systems Administration
+  - Networking
+  - Cybersecurity
+  - Cloud Computing
+  - Monitoring
+  - Automation
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Licence en Sciences Informatiques
+    institution: Faculté des Sciences - Université Ibn Tofail
+    start: 2024-09-01
+    end: 2025-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Spécialisation : Informatique.
+      Option : Science mathématique et informatique.
     button:
-      text: Download dissertation
-      url: /resume.pdf
+      text: Télécharger mon CV
+      url: /uploads/Achraf_Stitou_CV.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+
+  - degree: Certificat JobInTech
+    institution: ENSIAS
+    start: 2024-05-01
+    end: 2024-08-31
+    summary: |
+      Option : Cybersécurité & Cloud Computing.
+
+  - degree: Brevet de Technicien Supérieur
+    institution: Centre de BTS Al Farabi
+    start: 2021-09-01
+    end: 2023-06-30
+    summary: |
+      Option : Systèmes et réseaux informatiques.
+
+  - degree: Baccalauréat
+    institution: Lycée Qualifiant Al Wallada
+    start: 2020-09-01
+    end: 2021-06-30
+    summary: |
+      Option : Sciences physique et chimique.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: IT Infrastructure Intern
+    org: ORBIS HOLDING
+    start: 2024-07-01
+    end: 2024-08-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Participation à un projet de gestion de parc informatique,
+      support technique aux utilisateurs et résolution des incidents
+      matériels et logiciels.
+
+  - role: IT Technician Intern
+    org: INFOTEAM
+    start: 2024-05-01
+    end: 2024-08-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Travail comme technicien IT et participation au projet Gateway SMTP.
+
+  - role: Assistant Support Administrator Intern
+    org: Centre Maroco-Coréen de Formation
+    start: 2023-01-01
+    end: 2023-02-28
+    summary: |
+      Administration systèmes et réseaux, installation de salles,
+      maintenance informatique et support technique.
 
 skills:
-  - name: Technical Skills
+  - name: Infrastructure & Systems
+    items:
+      - label: Windows Server
+        level: 4
+      - label: Linux
+        level: 4
+      - label: VMware / VirtualBox
+        level: 4
+      - label: Docker
+        level: 3
+
+  - name: Networking & Security
+    items:
+      - label: LAN/WAN
+        level: 4
+      - label: Cisco Routing & Switching
+        level: 4
+      - label: Fortigate Firewall
+        level: 3
+      - label: Cybersecurity Fundamentals
+        level: 4
+
+  - name: Monitoring & ITSM
+    items:
+      - label: Zabbix
+        level: 4
+      - label: GLPI
+        level: 4
+      - label: Grafana
+        level: 4
+      - label: Veeam Backup
+        level: 3
+
+  - name: Development & Automation
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+        level: 3
+      - label: Java
+        level: 3
+      - label: Shell
+        level: 3
+      - label: Git / GitHub
         level: 4
-  - name: Research & Communication
+      - label: Ansible
+        level: 3
+      - label: Jenkins
+        level: 3
+
+  - name: Databases & Tools
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: PostgreSQL
+        level: 3
+      - label: Kafka
+        level: 3
+      - label: Postman / SoapUI
+        level: 3
+      - label: GNS3 / Eve-NG
+        level: 3
 
 languages:
-  - name: English
+  - name: Arabic
     level: 5
-    label: Native
-  - name: Spanish
+    label: Bon niveau
+
+  - name: French
     level: 4
-    label: Fluent
+    label: Bon niveau
+
+  - name: English
+    level: 3
+    label: Niveau intermédiaire
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: AWS Academy Cloud Foundations
+    awarder: AWS Academy
+    date: "2024-01-01"
+    icon: hero/cloud
+
+  - title: AWS Academy Cloud Security Foundations
+    awarder: AWS Academy
+    date: "2024-01-01"
+    icon: hero/shield-check
+
+  - title: CCNA Introduction to Networks
+    awarder: Cisco
+    date: "2024-01-01"
+    icon: hero/globe-alt
+
+  - title: CCNA Switching, Routing and Wireless Essentials
+    awarder: Cisco
+    date: "2024-01-01"
+    icon: hero/rss
+
+  - title: CCNA Enterprise Networking, Security and Automation
+    awarder: Cisco
+    date: "2024-01-01"
+    icon: hero/lock-closed
